@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-Bold.ttf">
+            <string>Nunito-Bold</string>
+        </array>
+        <array key="Nunito-Regular.ttf">
+            <string>Nunito-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="changePswPopupVC" customModule="Traxi" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelBtn" destination="k8a-fc-3yY" id="tTj-1f-6dx"/>
+                <outlet property="changePswLbl" destination="kkm-RN-B97" id="8Pa-jW-MGv"/>
+                <outlet property="changePswView" destination="smj-8X-iOR" id="TmT-BS-vlD"/>
+                <outlet property="currentPswTF" destination="vzS-df-gHE" id="BFc-Hd-svY"/>
+                <outlet property="myView" destination="lMA-BA-9Sp" id="Qbb-RH-rks"/>
+                <outlet property="newPswTF" destination="ust-gi-OSL" id="Ytd-kM-S7S"/>
+                <outlet property="submitBtn" destination="9u1-ja-BC5" id="7ty-sy-Uqd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <visualEffectView opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AkB-ln-9i0">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="3jn-nW-iR8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <blurEffect style="regular"/>
+                </visualEffectView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lMA-BA-9Sp">
+                    <rect key="frame" x="20" y="299" width="374" height="298"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="smj-8X-iOR">
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="80"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Password" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkm-RN-B97">
+                                    <rect key="frame" x="80" y="29.5" width="195" height="21"/>
+                                    <fontDescription key="fontDescription" name="Nunito-Bold" family="Nunito" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8a-fc-3yY">
+                                    <rect key="frame" x="330" y="24" width="32" height="32"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="32" id="3Mp-05-X6B"/>
+                                        <constraint firstAttribute="width" constant="32" id="Sof-ts-2rp"/>
+                                    </constraints>
+                                    <inset key="contentEdgeInsets" minX="4" minY="4" maxX="4" maxY="4"/>
+                                    <state key="normal" image="cancel"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="0.87058823529999996" blue="0.4039215686" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="k8a-fc-3yY" secondAttribute="trailing" constant="12" id="53T-Nu-San"/>
+                                <constraint firstItem="kkm-RN-B97" firstAttribute="centerY" secondItem="smj-8X-iOR" secondAttribute="centerY" id="5S5-iL-7az"/>
+                                <constraint firstAttribute="height" constant="80" id="70Z-Vy-JSu"/>
+                                <constraint firstItem="kkm-RN-B97" firstAttribute="leading" secondItem="smj-8X-iOR" secondAttribute="leading" constant="80" id="9ym-VD-Qv6"/>
+                                <constraint firstItem="k8a-fc-3yY" firstAttribute="leading" secondItem="kkm-RN-B97" secondAttribute="trailing" constant="55" id="FKI-ub-44Y"/>
+                                <constraint firstItem="k8a-fc-3yY" firstAttribute="centerY" secondItem="kkm-RN-B97" secondAttribute="centerY" id="yTQ-YZ-pLY"/>
+                            </constraints>
+                        </view>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Current Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vzS-df-gHE">
+                            <rect key="frame" x="20" y="100" width="334" height="42"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="42" id="5iC-iv-HgC"/>
+                            </constraints>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="16"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="New Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ust-gi-OSL">
+                            <rect key="frame" x="20" y="162" width="334" height="42"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="42" id="5ra-AD-qih"/>
+                            </constraints>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="16"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9u1-ja-BC5">
+                            <rect key="frame" x="30" y="234" width="314" height="44"/>
+                            <color key="backgroundColor" name="ButtonGradientLightColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="C5d-RH-lKT"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Nunito-Bold" family="Nunito" pointSize="14"/>
+                            <state key="normal" title="SUBMIT">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.98039215690000003" blue="0.89019607840000003" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="smj-8X-iOR" firstAttribute="top" secondItem="lMA-BA-9Sp" secondAttribute="top" id="3Ne-qX-hyc"/>
+                        <constraint firstAttribute="trailing" secondItem="9u1-ja-BC5" secondAttribute="trailing" constant="30" id="3gc-8g-Vxb"/>
+                        <constraint firstItem="smj-8X-iOR" firstAttribute="leading" secondItem="lMA-BA-9Sp" secondAttribute="leading" id="4uq-Dp-AFr"/>
+                        <constraint firstAttribute="trailing" secondItem="ust-gi-OSL" secondAttribute="trailing" constant="20" id="9Mi-TZ-vvr"/>
+                        <constraint firstItem="vzS-df-gHE" firstAttribute="top" secondItem="smj-8X-iOR" secondAttribute="bottom" constant="20" id="HhX-6y-HBz"/>
+                        <constraint firstItem="9u1-ja-BC5" firstAttribute="leading" secondItem="lMA-BA-9Sp" secondAttribute="leading" constant="30" id="HiN-rn-Z91"/>
+                        <constraint firstAttribute="trailing" secondItem="vzS-df-gHE" secondAttribute="trailing" constant="20" id="JE2-t2-oFZ"/>
+                        <constraint firstAttribute="bottom" secondItem="9u1-ja-BC5" secondAttribute="bottom" constant="20" id="KpI-EZ-m8N"/>
+                        <constraint firstItem="vzS-df-gHE" firstAttribute="leading" secondItem="lMA-BA-9Sp" secondAttribute="leading" constant="20" id="Y1f-eL-ke4"/>
+                        <constraint firstItem="ust-gi-OSL" firstAttribute="top" secondItem="vzS-df-gHE" secondAttribute="bottom" constant="20" id="blf-DL-7P5"/>
+                        <constraint firstItem="ust-gi-OSL" firstAttribute="leading" secondItem="lMA-BA-9Sp" secondAttribute="leading" constant="20" id="nFF-rt-bCw"/>
+                        <constraint firstAttribute="trailing" secondItem="smj-8X-iOR" secondAttribute="trailing" id="p4z-c2-E2N"/>
+                        <constraint firstItem="9u1-ja-BC5" firstAttribute="top" secondItem="ust-gi-OSL" secondAttribute="bottom" constant="30" id="sxD-GY-bgw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="AkB-ln-9i0" secondAttribute="trailing" id="AfZ-J7-dMM"/>
+                <constraint firstItem="lMA-BA-9Sp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Bfc-lN-grM"/>
+                <constraint firstItem="lMA-BA-9Sp" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Zu7-Sg-i5p"/>
+                <constraint firstItem="AkB-ln-9i0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aRn-Gu-AHs"/>
+                <constraint firstAttribute="bottom" secondItem="AkB-ln-9i0" secondAttribute="bottom" id="exp-3h-pgc"/>
+                <constraint firstItem="AkB-ln-9i0" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="fc8-Sy-V4Q"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="lMA-BA-9Sp" secondAttribute="trailing" constant="20" id="gmH-nO-LAx"/>
+                <constraint firstItem="lMA-BA-9Sp" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="kYq-M2-8hg"/>
+            </constraints>
+            <point key="canvasLocation" x="140.57971014492756" y="67.633928571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cancel" width="24" height="24"/>
+        <namedColor name="ButtonGradientLightColor">
+            <color red="1" green="0.078431372549019607" blue="0.55686274509803924" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

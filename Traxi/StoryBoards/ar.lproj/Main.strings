@@ -1,0 +1,99 @@
+
+/* Class = "UIBarButtonItem"; title = "BACK"; ObjectID = "41u-GI-ioJ"; */
+"41u-GI-ioJ.title" = "BACK";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "7J9-ku-pEd"; */
+"7J9-ku-pEd.normalTitle" = "SIGN IN dfadada";
+
+/* Class = "UITextField"; placeholder = "Confirm your Password"; ObjectID = "9Mf-Ma-Nlr"; */
+"9Mf-Ma-Nlr.placeholder" = "Confirm your Password sad asd ada";
+
+/* Class = "UIBarButtonItem"; title = "SAVE"; ObjectID = "9h2-RN-0dv"; */
+"9h2-RN-0dv.title" = "SAVE asda sd";
+
+/* Class = "UILabel"; text = "Become a Driver"; ObjectID = "AYk-0w-yBi"; */
+"AYk-0w-yBi.text" = "Become a Driver das dasda";
+
+/* Class = "UITextField"; placeholder = "Email or phone number"; ObjectID = "EPj-kO-F6Y"; */
+"EPj-kO-F6Y.placeholder" = "Email or phone number dfsd fs dsf sdfsd fds ";
+
+/* Class = "UINavigationItem"; title = "CHANGE LANGUAGE"; ObjectID = "FHF-lu-pDA"; */
+"FHF-lu-pDA.title" = "CHANGE LANGUAGE";
+
+/* Class = "UIButton"; normalTitle = "Change Language"; ObjectID = "FlJ-Jd-clO"; */
+"FlJ-Jd-clO.normalTitle" = "Change Language";
+
+/* Class = "UILabel"; text = "Welcome Back"; ObjectID = "J8Q-3Y-M3T"; */
+"J8Q-3Y-M3T.text" = "Welcome Back";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "KC0-cP-WlN"; */
+"KC0-cP-WlN.normalTitle" = "Forgot Password?";
+
+/* Class = "UILabel"; text = "Forgot Password?"; ObjectID = "L7g-ya-Wnu"; */
+"L7g-ya-Wnu.text" = "Forgot Password?";
+
+/* Class = "UIButton"; normalTitle = "BECOME A DRIVER"; ObjectID = "LCI-Uy-Pcw"; */
+"LCI-Uy-Pcw.normalTitle" = "BECOME A DRIVER";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "MEj-cA-2a4"; */
+"MEj-cA-2a4.normalTitle" = "SUBMIT";
+
+/* Class = "UITextField"; placeholder = "Enter your email"; ObjectID = "SP9-EC-Wdf"; */
+"SP9-EC-Wdf.placeholder" = "Enter your email";
+
+/* Class = "UITextField"; placeholder = "Email address"; ObjectID = "TdW-DF-775"; */
+"TdW-DF-775.placeholder" = "Email address";
+
+/* Class = "UITextField"; placeholder = "Enter your password"; ObjectID = "VaH-Dx-kBf"; */
+"VaH-Dx-kBf.placeholder" = "Enter your password";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "e69-gQ-Bqh"; */
+"e69-gQ-Bqh.text" = "English";
+
+/* Class = "UIButton"; normalTitle = "SELECT HINDI "; ObjectID = "eRX-cm-gn7"; */
+"eRX-cm-gn7.normalTitle" = "SELECT HINDI ";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "f16-im-XN6"; */
+"f16-im-XN6.text" = "Email";
+
+/* Class = "UITextField"; placeholder = "Enter your number"; ObjectID = "fMA-NG-VQY"; */
+"fMA-NG-VQY.placeholder" = "Enter your number";
+
+/* Class = "UIButton"; normalTitle = "SELECT ENGLISH "; ObjectID = "fvJ-G5-smk"; */
+"fvJ-G5-smk.normalTitle" = "SELECT ENGLISH ";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "jU4-H0-DDC"; */
+"jU4-H0-DDC.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Confirm Password"; ObjectID = "ket-nh-5BT"; */
+"ket-nh-5BT.text" = "Confirm Password";
+
+/* Class = "UIButton"; normalTitle = "SEND RESET LINK"; ObjectID = "kqi-It-F9D"; */
+"kqi-It-F9D.normalTitle" = "SEND RESET LINK";
+
+/* Class = "UILabel"; text = "Please send your personal information."; ObjectID = "oVh-pC-j1V"; */
+"oVh-pC-j1V.text" = "Please send your personal information.";
+
+/* Class = "UILabel"; text = "Message"; ObjectID = "ojL-X1-rPh"; */
+"ojL-X1-rPh.text" = "Message";
+
+/* Class = "UILabel"; text = "Please log in to your account."; ObjectID = "q7u-ZD-7Cq"; */
+"q7u-ZD-7Cq.text" = "Please log in to your account.";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "rG8-r1-i0q"; */
+"rG8-r1-i0q.text" = "Phone Number";
+
+/* Class = "UILabel"; text = "Please enter your email address."; ObjectID = "rdG-Tn-bUv"; */
+"rdG-Tn-bUv.text" = "Please enter your email address.";
+
+/* Class = "UITextField"; placeholder = "Enter your name"; ObjectID = "tqR-ni-x8Q"; */
+"tqR-ni-x8Q.placeholder" = "Enter your name";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "uzl-Xj-Z9P"; */
+"uzl-Xj-Z9P.text" = "Name";
+
+/* Class = "UILabel"; text = "Hindi"; ObjectID = "vOd-WP-aDK"; */
+"vOd-WP-aDK.text" = "Hindi";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "xmg-RF-GWP"; */
+"xmg-RF-GWP.text" = "Password";
