@@ -9,7 +9,7 @@ import UIKit
 
 class settingsVC: UIViewController {
     //MARK:- Variables
-    
+
     //MARK:- UI Components
     @IBOutlet weak var imgView: UIImageView!
     @IBOutlet weak var nameLbl: UILabel!
@@ -50,7 +50,9 @@ class settingsVC: UIViewController {
     //MARK:- Button Actions
     @objc func editBtnAction(_ sender : UIButton){
         let vc = storyboard?.instantiateViewController(identifier: "editProfileVC") as! editProfileVC
+        //do this for Data Passing Using Protocol and delagte
         // vc.delegate  = self
+        //do this for Data Passing Using Closure
         //        vc.myClosure =  { (image) in
         //            self.imgView.image = image
         //        }
@@ -80,7 +82,9 @@ extension settingsVC {
         logoutBtn.addTarget(self, action: #selector(logOutBtnAction(_:)), for: .touchUpInside)
         contactUsBtn.addTarget(self, action: #selector(contactUsBtnAction(_:)), for: .touchUpInside)
         imgView.layer.cornerRadius = self.imgView.frame.height / 2
+        imgView.layer.masksToBounds = true
         CommonFunctions.viewShadow(headerSettingsView)
+        
         self.imgView.yy_setImage(with: URL(string: CommonFunctions.getImage(coreData.shared.profileImage , quality: .large)), placeholder: UIImage(named: ""))
     }
 }

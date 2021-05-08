@@ -43,6 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             L102Language.setAppleLAnguageTo(selectedLanguage.code)
         }
         L012Localizer.DoTheSwizzling()
+        //for launchscreen to open for 1.5 seconds
         Thread.sleep(forTimeInterval: 1.5)
         
         //CoreData
