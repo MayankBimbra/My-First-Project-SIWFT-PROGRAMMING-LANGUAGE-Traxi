@@ -11,5 +11,8 @@ LOCALIZATION USED IN THIS PROJECT:----
 1. English
 2. Hindi
 
+![Screenshot 2021-07-24 at 5 09 12 PM](https://user-images.githubusercontent.com/46957502/126867266-6f377d79-d503-43bf-bc98-0542573d6169.png)
+![Screenshot 2021-07-24 at 5 09 23 PM](https://user-images.githubusercontent.com/46957502/126867270-992bc3c5-9195-492a-bec2-4a559d18febc.png)
+
 VALIDATIONS:----
 TF SHAKE IF NOT VALIDATED CORRECTLY
