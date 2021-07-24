@@ -1,2 +1,13 @@
 # Traxi-
 Traxi Screens UI
+SOCIAL LOGIN IMPLEMENTED IN THIS PROJECT:----
+1. Google Login
+2. Facebook Login
+3. Apple Login
+
+LOCALIZATION USED IN THIS PROJECT:----
+1. English
+2. Hindi
+
+VALIDATIONS:----
+TF SHAKE IF NOT VALIDATED CORRECTLY
