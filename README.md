@@ -13,6 +13,7 @@ LOCALIZATION USED IN THIS PROJECT:----
 
 ![Screenshot 2021-07-24 at 5 09 12 PM](https://user-images.githubusercontent.com/46957502/126867266-6f377d79-d503-43bf-bc98-0542573d6169.png)
 ![Screenshot 2021-07-24 at 5 09 23 PM](https://user-images.githubusercontent.com/46957502/126867270-992bc3c5-9195-492a-bec2-4a559d18febc.png)
+![Screenshot 2021-07-24 at 5 10 47 PM](https://user-images.githubusercontent.com/46957502/126867305-cba1c884-9808-4116-b2dd-8f9fca512d50.png)
 
 VALIDATIONS:----
 TF SHAKE IF NOT VALIDATED CORRECTLY
