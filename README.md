@@ -1,5 +1,5 @@
-# Traxi-
-Traxi Screens UI
+# PROJECT OVERVIEW -
+Project Screens UI
 SOCIAL LOGIN IMPLEMENTED IN THIS PROJECT:----
 1. Google Login
 2. Facebook Login
